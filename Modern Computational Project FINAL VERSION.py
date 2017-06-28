@@ -29,6 +29,7 @@ while Start==True :
         if option == '1':
             print('THANK YOU FOR CHOOSING HACHA-TEC FOR YOUR INFANT ACCELERATING. PLEASE WAIT WHILE PROGRAM LOADS.' + '\n')
             time.sleep(0)
+            #this was initially a non-zero value to make it seem more authentic, but for grade/practicality purposes I set it to zero
             print( str(babies) + ' INFANTS WILL BE SET FOR ACCELERATION.' + '\n')     
             
             realDate2=input('ENTER DATE ON WHICH TO FINISH SYNCHRONIZING INFANTS IN MM-DD-YYYY FORMAT' + '\n')
